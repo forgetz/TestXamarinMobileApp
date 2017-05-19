@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.View.CatalogPage"
+             Title="{Binding Title}"
+             Padding="10,20,10,10"
+             BackgroundImage="wallpaper.jpg">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" Clicked="Add_Clicked"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ListView ItemsSource="{Binding Products}" RowHeight="180" SeparatorVisibility="None">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame BackgroundColor="#A0FFFFFF"
+                               Margin="10,10,10,10">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Image Source="{Binding ImageUrl}"></Image>
+
+                                <StackLayout Orientation="Vertical"
+                                            Padding="10,10,10,10"
+                                            Grid.Column="1">
+
+                                    <Label Text="{Binding Name}"></Label>
+                                    <Label Text="{Binding Description}" LineBreakMode="TailTruncation"></Label>
+                                    <Label Text="{Binding Price, StringFormat='Price: {0:N0}'}"></Label>
+
+                                    <Button Text="Add Cart"
+                                                BackgroundColor="Silver"></Button>
+                                </StackLayout>
+                            </Grid>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

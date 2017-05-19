@@ -1,0 +1,9 @@
+C:\Code\VS2017\MobileApp\MobileApp.Api\bin\Debug\netcoreapp1.1\MobileApp.Api.deps.json
+C:\Code\VS2017\MobileApp\MobileApp.Api\bin\Debug\netcoreapp1.1\MobileApp.Api.runtimeconfig.json
+C:\Code\VS2017\MobileApp\MobileApp.Api\bin\Debug\netcoreapp1.1\MobileApp.Api.runtimeconfig.dev.json
+C:\Code\VS2017\MobileApp\MobileApp.Api\bin\Debug\netcoreapp1.1\MobileApp.Api.dll
+C:\Code\VS2017\MobileApp\MobileApp.Api\bin\Debug\netcoreapp1.1\MobileApp.Api.pdb
+C:\Code\VS2017\MobileApp\MobileApp.Api\obj\Debug\netcoreapp1.1\MobileApp.Api.csprojResolveAssemblyReference.cache
+C:\Code\VS2017\MobileApp\MobileApp.Api\obj\Debug\netcoreapp1.1\MobileApp.Api.AssemblyInfo.cs
+C:\Code\VS2017\MobileApp\MobileApp.Api\obj\Debug\netcoreapp1.1\MobileApp.Api.dll
+C:\Code\VS2017\MobileApp\MobileApp.Api\obj\Debug\netcoreapp1.1\MobileApp.Api.pdb
